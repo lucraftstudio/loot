@@ -1,0 +1,20 @@
+.bb-animation {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  isolation: isolate;
+}
+.bb-animation canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.bb-white-flash {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: transparent;
+  opacity: 0;
+}
